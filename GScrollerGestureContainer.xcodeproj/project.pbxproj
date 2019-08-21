@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE71098230BE7CE0029B8FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE71097230BE7CE0029B8FF /* AppDelegate.m */; };
+		2BE7109B230BE7CE0029B8FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7109A230BE7CE0029B8FF /* ViewController.m */; };
+		2BE7109E230BE7CE0029B8FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE7109C230BE7CE0029B8FF /* Main.storyboard */; };
+		2BE710A0230BE7CF0029B8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE7109F230BE7CF0029B8FF /* Assets.xcassets */; };
+		2BE710A3230BE7CF0029B8FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE710A1230BE7CF0029B8FF /* LaunchScreen.storyboard */; };
+		2BE710A6230BE7CF0029B8FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE710A5230BE7CF0029B8FF /* main.m */; };
+		2BE710BD230BF9250029B8FF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE710BC230BF9250029B8FF /* TestViewController.m */; };
+		2BE710C1230D1D380029B8FF /* GScrollerGestureTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE710BF230D1D380029B8FF /* GScrollerGestureTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BE71093230BE7CE0029B8FF /* GScrollerGestureContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GScrollerGestureContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE71096230BE7CE0029B8FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BE71097230BE7CE0029B8FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BE71099230BE7CE0029B8FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BE7109A230BE7CE0029B8FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BE7109D230BE7CE0029B8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BE7109F230BE7CF0029B8FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE710A2230BE7CF0029B8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BE710A4230BE7CF0029B8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE710A5230BE7CF0029B8FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BE710BB230BF9250029B8FF /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		2BE710BC230BF9250029B8FF /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		2BE710BF230D1D380029B8FF /* GScrollerGestureTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GScrollerGestureTransition.m; sourceTree = "<group>"; };
+		2BE710C0230D1D380029B8FF /* GScrollerGestureTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GScrollerGestureTransition.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE71090230BE7CE0029B8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE7108A230BE7CE0029B8FF = {
+			isa = PBXGroup;
+			children = (
+				2BE71095230BE7CE0029B8FF /* GScrollerGestureContainer */,
+				2BE71094230BE7CE0029B8FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE71094230BE7CE0029B8FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE71093230BE7CE0029B8FF /* GScrollerGestureContainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE71095230BE7CE0029B8FF /* GScrollerGestureContainer */ = {
+			isa = PBXGroup;
+			children = (
+				2BE710BE230D1D380029B8FF /* GScrollerGestureTransition */,
+				2BE71096230BE7CE0029B8FF /* AppDelegate.h */,
+				2BE71097230BE7CE0029B8FF /* AppDelegate.m */,
+				2BE71099230BE7CE0029B8FF /* ViewController.h */,
+				2BE7109A230BE7CE0029B8FF /* ViewController.m */,
+				2BE710BB230BF9250029B8FF /* TestViewController.h */,
+				2BE710BC230BF9250029B8FF /* TestViewController.m */,
+				2BE7109C230BE7CE0029B8FF /* Main.storyboard */,
+				2BE7109F230BE7CF0029B8FF /* Assets.xcassets */,
+				2BE710A1230BE7CF0029B8FF /* LaunchScreen.storyboard */,
+				2BE710A4230BE7CF0029B8FF /* Info.plist */,
+				2BE710A5230BE7CF0029B8FF /* main.m */,
+			);
+			path = GScrollerGestureContainer;
+			sourceTree = "<group>";
+		};
+		2BE710BE230D1D380029B8FF /* GScrollerGestureTransition */ = {
+			isa = PBXGroup;
+			children = (
+				2BE710BF230D1D380029B8FF /* GScrollerGestureTransition.m */,
+				2BE710C0230D1D380029B8FF /* GScrollerGestureTransition.h */,
+			);
+			path = GScrollerGestureTransition;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE71092230BE7CE0029B8FF /* GScrollerGestureContainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE710A9230BE7CF0029B8FF /* Build configuration list for PBXNativeTarget "GScrollerGestureContainer" */;
+			buildPhases = (
+				2BE7108F230BE7CE0029B8FF /* Sources */,
+				2BE71090230BE7CE0029B8FF /* Frameworks */,
+				2BE71091230BE7CE0029B8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GScrollerGestureContainer;
+			productName = GScrollerGestureContainer;
+			productReference = 2BE71093230BE7CE0029B8FF /* GScrollerGestureContainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE7108B230BE7CE0029B8FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = GIKI;
+				TargetAttributes = {
+					2BE71092230BE7CE0029B8FF = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 2BE7108E230BE7CE0029B8FF /* Build configuration list for PBXProject "GScrollerGestureContainer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE7108A230BE7CE0029B8FF;
+			productRefGroup = 2BE71094230BE7CE0029B8FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE71092230BE7CE0029B8FF /* GScrollerGestureContainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE71091230BE7CE0029B8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE710A3230BE7CF0029B8FF /* LaunchScreen.storyboard in Resources */,
+				2BE710A0230BE7CF0029B8FF /* Assets.xcassets in Resources */,
+				2BE7109E230BE7CE0029B8FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE7108F230BE7CE0029B8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE7109B230BE7CE0029B8FF /* ViewController.m in Sources */,
+				2BE710A6230BE7CF0029B8FF /* main.m in Sources */,
+				2BE710C1230D1D380029B8FF /* GScrollerGestureTransition.m in Sources */,
+				2BE710BD230BF9250029B8FF /* TestViewController.m in Sources */,
+				2BE71098230BE7CE0029B8FF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BE7109C230BE7CE0029B8FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE7109D230BE7CE0029B8FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BE710A1230BE7CF0029B8FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE710A2230BE7CF0029B8FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BE710A7230BE7CF0029B8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BE710A8230BE7CF0029B8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE710AA230BE7CF0029B8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4NWU843M5;
+				INFOPLIST_FILE = GScrollerGestureContainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GIKICoder.GScrollerGestureContainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BE710AB230BE7CF0029B8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4NWU843M5;
+				INFOPLIST_FILE = GScrollerGestureContainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GIKICoder.GScrollerGestureContainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE7108E230BE7CE0029B8FF /* Build configuration list for PBXProject "GScrollerGestureContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE710A7230BE7CF0029B8FF /* Debug */,
+				2BE710A8230BE7CF0029B8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE710A9230BE7CF0029B8FF /* Build configuration list for PBXNativeTarget "GScrollerGestureContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE710AA230BE7CF0029B8FF /* Debug */,
+				2BE710AB230BE7CF0029B8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE7108B230BE7CE0029B8FF /* Project object */;
+}
