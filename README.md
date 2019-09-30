@@ -1,1 +1,2 @@
 # GScrollerGestureTransition
+带有scrollview页面的下拉返回手势。
